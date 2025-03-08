@@ -1,0 +1,80 @@
+/* frontend/src/styles/global.css - Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Home Page */
+  .home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Search Page */
+  .search-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .search-container button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* QuranViewer Page */
+  .quran-viewer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .verse-item {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #007bff;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+  }
+  
